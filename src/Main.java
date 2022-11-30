@@ -13,7 +13,7 @@ public class Main {
         System.out.println(dog);
         cat = cat + 4;
         System.out.println(cat);
-        paper = paper +4;
+        paper = paper + 4;
         System.out.println(paper);
         dog = dog - 3;
         System.out.println(dog);
@@ -44,27 +44,23 @@ public class Main {
         var sportsmen1 = 78.2;
         var sportsmen2 = 82.7;
         var totalWeigh = sportsmen1 + sportsmen2;
-        System.out.println("Общий вес двух бойцов " + totalWeigh + " кг." );
+        System.out.println("Общий вес двух бойцов " + totalWeigh + " кг.");
         var weightDifference = sportsmen2 - sportsmen1;
-        System.out.println("Разница в весе двух бойцов " + weightDifference + " кг." );
+        System.out.println("Разница в весе двух бойцов " + weightDifference + " кг.");
 
-        var difference  = sportsmen2 % sportsmen1;
-        System.out.println("Разница в весе двух бойцов " + difference + " кг." );
-
-
+        var difference = sportsmen2 % sportsmen1;
+        System.out.println("Разница в весе двух бойцов " + difference + " кг.");
 
 
+        var totalTime = 640;
+        var workingTime = 8;
+        var numberOfEmployees = totalTime / workingTime;
+        System.out.println("Всего работников в компании – " + numberOfEmployees + " человек ");
 
-
-
-
-
-
-
-
-
+        numberOfEmployees = numberOfEmployees + 94;
+        totalTime =  workingTime * numberOfEmployees;
+        System.out.println("Если в компании работает " + numberOfEmployees + " человек, то всего " + totalTime + " часов работы может быть поделено между сотрудниками");
 
 
     }
-
 }
