@@ -39,6 +39,31 @@ public class Main {
         System.out.println(frog);
         frog = frog + 4;
         System.out.println(frog);
+
+
+        var sportsmen1 = 78.2;
+        var sportsmen2 = 82.7;
+        var totalWeigh = sportsmen1 + sportsmen2;
+        System.out.println("Общий вес двух бойцов " + totalWeigh + " кг." );
+        var weightDifference = sportsmen2 - sportsmen1;
+        System.out.println("Разница в весе двух бойцов " + weightDifference + " кг." );
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     }
 
 }
