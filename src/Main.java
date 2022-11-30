@@ -48,7 +48,8 @@ public class Main {
         var weightDifference = sportsmen2 - sportsmen1;
         System.out.println("Разница в весе двух бойцов " + weightDifference + " кг." );
 
-
+        var difference  = sportsmen2 % sportsmen1;
+        System.out.println("Разница в весе двух бойцов " + difference + " кг." );
 
 
 
